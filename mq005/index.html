@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo media query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">opção</a></li>
+                <li><a href="#">opção</a></li>
+                <li><a href="#">opção</a></li>
+                <li><a href="#">opção</a></li>
+                <li><a href="#">opção</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam fugit culpa, consequatur cum dolorem accusantium natus totam tempore rem tenetur dolorum nam sit impedit! Dolorem cupiditate ex similique impedit?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam at alias hic, deserunt provident, est cupiditate ut quos nesciunt, aspernatur nobis officia praesentium. Similique, ad facilis odio fugiat repudiandae vitae!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti corrupti, ad rem accusamus incidunt eum eligendi dolorum sed, libero nesciunt dolor rerum ex consectetur inventore impedit provident iste laborum similique?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu () {
+             if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+             } else {
+                itens.style.display = 'block'
+             }
+        }
+    </script>
+</body>
+</html>
