@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* aparelho em pé (portatil) */
+
+body {
+    background: url(../imagens/cev-portrait.jpg) no-repeat center center;
+    background-size: cover;
+}

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* retrato em deitado (ladscape) */
+
+body {
+    background: url(../imagens/cev-landscape.jpg) no-repeat center center;
+    background-size: cover;
+}
